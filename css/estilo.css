@@ -49,10 +49,12 @@ footer{
 }
 
 .item-menu{
+    position: relative;
     margin: 0%;
     padding: 0%;
     list-style: none;
     display: inline;
+    
 }
 
 .item-menu a{
@@ -105,7 +107,7 @@ footer{
     clear: both;
 }
 
-#div-container1{
+.div-container1{
     display: block;
     flex-direction: column;
     align-items: center;
@@ -148,4 +150,171 @@ footer{
 
 .carrossel div h3{
     margin: 0px;
+}
+
+.carrossel div h5{
+    margin-top: -20px;
+    margin-bottom: 5px;
+    
+}
+
+#imagem-descricao{
+    align-items: center;
+    text-align: center;
+}
+
+#imagem-descricao p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    font-size: 23px;
+}
+
+#imagem-descricao img{
+    width: 250px;
+    flex-direction: row;
+}
+
+input{
+ 
+}
+
+.div-central{
+    align-items: center;
+    clear: both;
+}
+
+.div-central form{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formulario{
+    
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    float: center;
+}
+
+.div-central form p{   
+    
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+#mensagem{
+    width: 200px;
+    height: 100px;
+    text-align: start;
+    border-radius: 10px;
+}
+.entrada{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.fale-conosco{
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#botao-enviar{
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    float: right;
+    margin-right: 5px;
+}
+
+#h1-pratos{
+    margin-left: 225px;
+    font-size: 35px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(164, 35, 15); 
+    
+}
+
+.container-pratos{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+    align-items: center;
+    
+    
+}
+
+.lista-pratos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    list-style-type: none;
+}
+
+.item-lista{
+    margin-bottom: 30px;
+}
+
+/* .item-lista2{
+    
+}
+.item-lista3{
+    
+} */
+
+section{
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.imagem-produto{
+    width: 200px;
+    height: 170px;
+    border-radius: 10px;
+}
+.titulo-produto{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(164, 35, 15); 
+    
+}
+
+.div-preco{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(164, 35, 15); 
+}
+
+.div-preco p{
+    margin-top: 1px; 
+}
+
+.span-preco{
+    
+}
+
+#mostrar-mais{
+    width: 800px;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }

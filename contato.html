@@ -2,19 +2,36 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
-    <script src="js/jquery.js"></script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-    <link rel="stylesheet" href="css/estilo.css">
-    <script src="js/slick.js"></script>
-    <link rel="stylesheet" href="/css/slick-theme.css">
-    <link rel="stylesheet" href="/css/slick.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Contato - Spaghetti da Mamma</title>
+        <link rel="icon" href="img/icone.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="img/icone.png" type="image/x-icon" />
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
+        <link rel="stylesheet" href="css/estilo.css">
+
+
+      
 </head>
 
 <body>
+        
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <script src="js/slick.js" type="text/javascript"></script>
+        <script src="js/jquery.mask.min.js" type="text/javascript"></script>
+        <script src="js/jquery.inputmask.bundle.js" type="text/javascript"></script>
+
+        <!-- implementar o widget tootlip no formulário de contato-->
+
+        <script>
+                $( function() {
+                  $( document ).tooltip();
+                } );
+                </script>
+
+
 
     <div class="cabecalho">
         <div class="item-menu-img"> <a href="index.html"> <img id="img-menu" src="img/logo2.png" alt="Logo2"> </img>
@@ -31,11 +48,35 @@
             </div>
         </div>
     </div>
+<br><br>
+    <div class="div-central">
+            <h1 class="fale-conosco">Fale conosco</h1>
+        <form action="" class="formulario" method="POST">
+            
+            <p> <input type="text" name="nome" class="entrada" title="" placeholder=" Nome completo"><br><br>
+                <input type="email" name="email" class="entrada" title="Insira seu melhor email" placeholder=" Email"><br><br>
+                <input type="tel" name="telefone" id="telefone" class="entrada" placeholder=" Telefone"><br><br>
+               <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder=" Mensagem" title="Mande-nos sugestões, dicas, reclamações ou elogios."></textarea> <br>
+               <button type="submit" id="botao-enviar">Enviar</button>
 
+            </p>
+            
+        </form>
+    </div>
 
+<br>
     <footer> (88) 3412-2066 <br>
         Desde 2017 <br>
         Desenvolvedor: Jonas Deyvid Pereira da Silva </footer>
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#telefone").mask("(00) 0000-00009");
+            })
+        </script>
+
+        
+
 
 </body>
 
